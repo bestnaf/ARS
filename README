@@ -1,0 +1,23 @@
+Anti Rekt Script addon for Gunbot MarketMaket (for Margin MM ONLY).
+This script was born from a necessity of having some sort of safety for the Gunbot MarketMaker add-on. 
+The script pulls all of the data it needs from the gunbot jsons as required, and then writes changes to your gunbot config.js file.
+The initial reason to create a script for Market Maker is to have some more control over position size so we don’t let it grow when close to liquidation price. 
+There was a calculation of liquidation spread and a full stop buy/sells when the defined limit is reached. The liquidation spread is a delta % between the current price and the liquidation price.
+Now it became a multi functional addon with few protection and tuning functions inside:
+
+Liquidation Spread protection
+Small Position Killer
+Auto TL calculation
+Pump and Dump Protection
+Passive Position Protection index
+Side Market detection with UTA switching
+SR/ROE/Trailing/Exchange Delay auto switching
+Isolated Leverage Protection (for Kraken Futures, Binance Futures and Kumex)
+
+Comes with:
+Pre-configured configs for GB MM as a plug and play: Copy config templates, insert API keys and start ARS – thats it.
+Auto Configure and scale options like MAX Buys/Sell, Trading Limit
+TV scripts for PDP and PPP functions (to tune the variables for non standard pairs)
+TG Support group
+Advanced TG alerts
+Users Guide
