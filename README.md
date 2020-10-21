@@ -1190,7 +1190,6 @@ Full list of default settings in a table below:
 
 Common startup issues are described here. This list will be updated as community members forward their issues and fixes to me.
 
-* Be sure you have joined the telegram group posted above, to get assistance from the community: [https://t.me/joinchat/C\_mMG1JWpJPV-qM89miHkQ](https://t.me/joinchat/C_mMG1JWpJPV-qM89miHkQ)
 * Announcements channel with Last ARS builds: [https://t.me/joinchat/AAAAAFYTloV9ioR0VrrPng](https://t.me/joinchat/AAAAAFYTloV9ioR0VrrPng)
 
 ## Files Structure
