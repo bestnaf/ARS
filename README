@@ -21,3 +21,11 @@ TV scripts for PDP and PPP functions (to tune the variables for non standard pai
 TG Support group
 Advanced TG alerts
 Users Guide
+
+Roadmap:
+Code market neutral functions class to be used with any modes in future (set strat general or market_neutral, mode - mm/grid/moto)
+Use direct GB interaction to:
+- Enter position when we close by stop loss or due to pump/dump
+- Add Telegram bot with buttons to do this
+Add auto add-remove pairs algo based on last x days volume and volatility (price change rate)
+Web interface with dash
