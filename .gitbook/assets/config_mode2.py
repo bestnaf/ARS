@@ -1,0 +1,39 @@
+from lib.pairs import Pair
+from lib.pairs import pairs
+TG_ENABLED=True
+TG_VERBOSE="Full"
+GUNBOT_CONFIG_FILE="config.js"
+GUNBOT_JSON_DIR="json"
+LOG_FILE="logging.txt"
+CHECK_DELAY = 5
+STAT_MSG_TIMEOUT = 15
+UV_FILE = "USR_VARS.ini"
+ISL = True
+ISL_LIMIT = 20
+LIQ = True
+BINANCE = True
+BIN_PATH = "None"
+USDTBTC = Pair("USDT-BTC")
+USDTBTC.settings.MAX_BUY=5
+USDTBTC.settings.MAX_SELL=5
+USDTBTC.settings.TRADING_LIMIT=10
+USDTBTC.settings.MAX_OPEN_CONTRACTS=10000000
+USDTBTC.settings.LIQUIDATION_LIMIT=60
+USDTBTC.settings.PRICE_DELTA_LIMIT=0.4
+USDTBTC.settings.DELAY_HIGH = 6
+USDTBTC.settings.DELAY_LOW = 0
+USDTBTC.settings.PDP_VOL_FAST = 200
+USDTBTC.settings.PDP_VOL_SLOW = 200
+USDTBTC.settings.ROE = 8
+USDTBTC.settings.ROE_LIMIT = 0.2
+USDTBTC.settings.PDP_NO_ROE_CLOSE = True
+USDTBTC.settings.TL_AC = True
+USDTBTC.settings.TLX = 2
+USDTBTC.config.ROE_TRAILING = True
+USDTBTC.settings.SR_SWITCH = True
+USDTBTC.settings.UNLIM_ROE_LOW = -5
+USDTBTC.settings.ISL_LIQ_IGNORE = 2
+USDTBTC.settings.NO_SIDE_LOCK = False
+USDTBTC.settings.GRID = True
+USDTBTC.settings.DCA_EMA = False
+pairs.append(USDTBTC)
